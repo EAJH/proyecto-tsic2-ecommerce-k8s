@@ -1,0 +1,54 @@
+@use '../base/mixins';
+
+.iconos-header {
+    @include mixins.grid(3,2rem);
+
+    .icono {
+        img {
+            width: 4.5rem;  
+            height: auto; 
+
+        }  
+        
+        a{
+            display: flex;
+            justify-content: center;
+        }
+        padding-top: 4.5rem;
+
+    }
+}
+
+.filtro {
+    display: flex;
+    align-items: center;
+    img {
+        width: 4.5rem; /* <-- Ajusta este valor */
+        height: auto;
+        margin-right: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    img {
+        width: 4.5rem; /* <-- Ajusta este valor */
+        height: auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+
+    p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,28 @@
+ @use '../base/mixins';
+ @use '../base/variables';
+
+
+.form{
+
+    label{
+        font-weight: variables.$regular;
+        font-size: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    input[type="submit"] {
+        display: block;     // Lo hacemos un bloque para que ocupe su propia línea
+        width: 80%;         
+        margin: 1rem auto;  // 1rem arriba/abajo y 'auto' a los lados (esto lo centra)
+    }
+
+    @include mixins.tablet {
+        input[type="submit"] {
+            display: inline-block; // Lo regresamos a 'inline' para que esté junto al input
+            width: auto;           // Le quitamos el ancho fijo
+            margin: 0 0 0 2rem;  // Restablecemos el margen y aplicamos un 'margin-left'
+        }
+    }
+}
+

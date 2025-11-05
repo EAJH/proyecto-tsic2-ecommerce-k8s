@@ -1,0 +1,15 @@
+ @use '../base/mixins';
+ @use '../base/variables';
+
+.contenido-barra-busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: variables.$gris;
+
+    .filtro{
+        margin-right: 0;
+    }
+
+}
+

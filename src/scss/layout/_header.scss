@@ -1,0 +1,49 @@
+@use '../base/mixins';
+@use '../base/variables';
+
+.no-webp .inicio{
+    background-image: url(../../../build/img/fondo5.png);
+}
+
+.webp .inicio{
+    background-image: url(../../../build/img/fondo5.webp);
+}
+
+.header {
+
+    &.inicio {
+        background-position: center center;
+        background-size: cover;
+        position: relative; // Necesario para ambas vistas
+
+        .slogan {
+            // --- ESTILOS PARA PANTALLA PEQUEÑA ---
+            position: absolute;
+            top: 0;    
+            right: 0;  
+            
+            padding: 1rem; 
+            margin-right: 5rem;
+
+            // Alinea el texto si es más de una línea
+            text-align: right; 
+            font-size: 3rem;
+        }
+
+        @include mixins.tablet {
+            min-height: 80rem;
+
+            .slogan {
+                // --- ESTILOS QUE SOBREESCRIBEN PARA PANTALLA GRANDE ---
+                top: auto;   
+                right: auto; 
+                bottom: 0; 
+                left: 0;   
+                padding: 2rem; 
+                margin-bottom: 25rem;
+                margin-left: 5rem;
+                font-size: 5rem;
+            }
+        }
+    }
+}

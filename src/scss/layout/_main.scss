@@ -1,0 +1,266 @@
+ @use '../base/mixins';
+ @use '../base/variables';
+
+.contenido-productos{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+    a{
+        font-size: 5rem;
+    }
+}
+
+.main-playeras {
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50rem;
+        height: auto; 
+        max-height: 50rem; 
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .descripcion {
+        max-width: 50rem;    
+        margin-left: auto;   
+        margin-right: auto;  
+        width: 100%;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+
+        p {
+            text-align: justify;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+                text-align: center
+            }
+            
+        }
+    }
+  
+    // Lo de adentro del mixin de tablet sale a las pantallas grandes, lo de afuera a las 
+    // pantallas chicas
+  @include mixins.tablet{
+    @include mixins.grid(2, 2rem);
+
+    // Alinea ambas columnas arriba, evitando que la imagen se estire.
+    align-items: start; 
+
+    img {
+        width: 80%;
+        height: auto; 
+        max-height: 70rem; 
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .descripcion {
+        // Resetea elementos de ajuste
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+
+        padding-left: 0;
+        padding-right: 0;
+
+        p {
+            text-align: justify;
+            margin: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+            }
+            
+        }
+    }
+  }
+
+}
+
+
+.main-chamarras {
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    img {
+        width: 50rem;
+        height: auto; 
+        max-height: 50rem; 
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .descripcion {
+        max-width: 50rem;    
+        margin-left: auto;   
+        margin-right: auto;  
+        width: 100%;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+
+        p {
+            text-align: justify;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+                text-align: center
+            }
+            
+        }
+    }
+  
+    // Lo de adentro del mixin de tablet sale a las pantallas grandes, lo de afuera a las 
+    // pantallas chicas
+  @include mixins.tablet{
+    @include mixins.grid(2, 2rem);
+
+    // Alinea ambas columnas arriba, evitando que la imagen se estire.
+    align-items: start; 
+
+    img {
+        width: 80%;
+        height: auto; 
+        max-height: 70rem; 
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .descripcion {
+        // Resetea elementos de ajuste
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+
+        padding-left: 0;
+        padding-right: 0;
+
+        p {
+            text-align: justify;
+            margin: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+            }
+            
+        }
+    }
+  }
+
+}
+
+
+.main-pantalones {
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50rem;
+        height: auto; 
+        max-height: 50rem; 
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .descripcion {
+        max-width: 50rem;    
+        margin-left: auto;   
+        margin-right: auto;  
+        width: 100%;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+
+        p {
+            text-align: justify;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+                text-align: center
+            }
+            
+        }
+    }
+  
+    // Lo de adentro del mixin de tablet sale a las pantallas grandes, lo de afuera a las 
+    // pantallas chicas
+  @include mixins.tablet{
+    @include mixins.grid(2, 2rem);
+
+    // Alinea ambas columnas arriba, evitando que la imagen se estire.
+    align-items: start; 
+
+    img {
+        width: 80%;
+        height: auto; 
+        max-height: 70rem; 
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .descripcion {
+        // Resetea elementos de ajuste
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+
+        padding-left: 0;
+        padding-right: 0;
+
+        p {
+            text-align: justify;
+            margin: 2rem;
+        }
+
+        a{
+            color: variables.$negro;
+            h1{
+                font-weight: variables.$bold;
+            }
+            
+        }
+    }
+  }
+
+}

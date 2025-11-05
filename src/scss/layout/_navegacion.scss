@@ -1,0 +1,35 @@
+ @use '../base/mixins';
+ @use '../base/variables';
+
+ .barra {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     
+
+     @include mixins.tablet {
+         flex-direction: row;
+     }
+
+
+     h1 {
+         align-items: center;
+         margin-top: 7rem;
+         font-weight: variables.$black;
+         font-size: 5rem;
+     }
+ }
+
+
+ .logo {
+     width: 15rem;
+     height: auto;
+
+     @include mixins.tablet {
+         width: 35rem;
+         height: auto;
+         margin-left: 6rem;
+     }
+ }
+
+
