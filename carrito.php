@@ -13,7 +13,7 @@
         <div class="contenedor contenido-header">
 
             <div class="barra">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                    <!--Imagen del logo-->
                    <img src="build/img/iconos/logo.webp" alt="Logo de la tienda">
                 </a>
@@ -23,19 +23,19 @@
                 <nav class="navegacion">
                     <div class="iconos-header">
                         <div class="icono">
-                            <a href="carrito.html">
+                            <a href="carrito.php">
                                 <img src="build/img/iconos/carrito-compras.svg" alt="Carrito de compras" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="wishlist.html">
-                                <img src="build/img/iconos/estrella.svg" alt="Wishlist" loading="lazy">
+                            <a href="inventario.php">
+                                <img src="build/img/iconos/estrella.svg" alt="Inventario" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="login.html">
+                            <a href="login.php">
                                 <img src="build/img/iconos/user.svg" alt="Login" loading="lazy">
                             </a>
                         </div>
@@ -50,27 +50,6 @@
         <p class="slogan">Tu estilo, a un clic.</p>
 
     </header> <!-- fin del header -->
-
-
-
-    <!--Barra de busquedas después del header -->
-    <section class="contenido-barra-busqueda">
-
-        <!--PONER FUNCIONAMIENTO CON JS-->
-        <div class="filtro">
-            <img src="build/img/iconos/filter.svg" alt="Filtro de navegación">
-            <p>Filtro para productos</p>
-        </div> <!-- fin filtro -->
-
-        <div class="barra-busqueda">
-            <img src="build/img/iconos/search.svg" alt="Barra de búsqueda">
-            <p>Barra de búsqueda</p>
-        </div> <!-- fin barra-busqueda -->
-
-        <div class="boton boton-amarillo">
-
-        </div> <!-- fin boton-amarillo -->
-    </section> <!-- fin de la sección de la barra de búsqueda -->
 
 
 

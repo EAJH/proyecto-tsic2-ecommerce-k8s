@@ -13,7 +13,7 @@
         <div class="contenedor contenido-header">
 
             <div class="barra">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                    <!--Imagen del logo-->
                    <img src="build/img/iconos/logo.webp" alt="Logo de la tienda">
                 </a>
@@ -23,19 +23,19 @@
                 <nav class="navegacion">
                     <div class="iconos-header">
                         <div class="icono">
-                            <a href="carrito.html">
+                            <a href="carrito.php">
                                 <img src="build/img/iconos/carrito-compras.svg" alt="Carrito de compras" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="wishlist.html">
+                            <a href="inventario.php">
                                 <img src="build/img/iconos/estrella.svg" alt="Wishlist" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="login.html">
+                            <a href="login.php">
                                 <img src="build/img/iconos/user.svg" alt="Login" loading="lazy">
                             </a>
                         </div>
@@ -50,6 +50,7 @@
         <p class="slogan">Tu estilo, a un clic.</p>
 
     </header> <!-- fin del header -->
+
 
 
 

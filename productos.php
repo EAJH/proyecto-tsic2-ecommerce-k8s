@@ -13,7 +13,7 @@
         <div class="contenedor contenido-header">
 
             <div class="barra">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                    <!--Imagen del logo-->
                    <img src="build/img/iconos/logo.webp" alt="Logo de la tienda">
                 </a>
@@ -23,19 +23,19 @@
                 <nav class="navegacion">
                     <div class="iconos-header">
                         <div class="icono">
-                            <a href="carrito.html">
+                            <a href="carrito.php">
                                 <img src="build/img/iconos/carrito-compras.svg" alt="Carrito de compras" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="wishlist.html">
-                                <img src="build/img/iconos/estrella.svg" alt="Wishlist" loading="lazy">
+                            <a href="inventario.php">
+                                <img src="build/img/iconos/estrella.svg" alt="Inventario" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="login.html">
+                            <a href="login.php">
                                 <img src="build/img/iconos/user.svg" alt="Login" loading="lazy">
                             </a>
                         </div>
@@ -116,7 +116,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -144,7 +144,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -172,7 +172,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -201,7 +201,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -230,7 +230,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -259,7 +259,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -288,7 +288,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -317,7 +317,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -346,7 +346,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -376,7 +376,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -405,7 +405,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->
@@ -434,7 +434,7 @@
                         </li>
                     </ul>
                     <!-- AÑADIR LA FUNCIONALIDAD DE AUMENTAR EL CONTADOR EN LA PÁGINA DE CARRITO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                    <a href="productos.html" class="boton boton-amarillo">
+                    <a href="productos.php" class="boton boton-amarillo">
                         Añadir al carrito / Wishlist
                     </a>
                 </div> <!-- fin contenido-producto -->

@@ -13,7 +13,7 @@
         <div class="contenedor contenido-header">
 
             <div class="barra">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                    <!--Imagen del logo-->
                    <img src="build/img/iconos/logo.webp" alt="Logo de la tienda">
                 </a>
@@ -23,19 +23,19 @@
                 <nav class="navegacion">
                     <div class="iconos-header">
                         <div class="icono">
-                            <a href="carrito.html">
+                            <a href="carrito.php">
                                 <img src="build/img/iconos/carrito-compras.svg" alt="Carrito de compras" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="wishlist.html">
-                                <img src="build/img/iconos/estrella.svg" alt="Wishlist" loading="lazy">
+                            <a href="inventario.php">
+                                <img src="build/img/iconos/estrella.svg" alt="Inventario" loading="lazy">
                             </a>
                         </div>
                         
                         <div class="icono">
-                            <a href="login.html">
+                            <a href="login.php">
                                 <img src="build/img/iconos/user.svg" alt="Login" loading="lazy">
                             </a>
                         </div>
@@ -56,7 +56,7 @@
     <!--Barra de busquedas después del header -->
     <section class="contenido-productos">
 
-        <a href="productos.html" class="boton boton-amarillo">
+        <a href="productos.php" class="boton boton-amarillo">
             Productos a la venta
         </a>        
         
@@ -67,13 +67,13 @@
     <main class="contenedor main">
         
         <section class="main-playeras">
-            <a href="productos.html">
+            <a href="productos.php">
                 <img src="build/img/playeras/playeraIndex.webp" alt="Playeras" loading="lazy">
             </a>
 
             <div class="descripcion">
 
-                <a href="productos.html"> <h1>Playeras</h1> </a>
+                <a href="productos.php"> <h1>Playeras</h1> </a>
                 
 
                 <p>Descubre nuestra colección de playeras, diseñadas para ser el pilar de tu guardarropa. 
@@ -96,7 +96,7 @@
 
             <div class="descripcion">
 
-                <a href="productos.html"> <h1>Chamarras</h1> </a>
+                <a href="productos.php"> <h1>Chamarras</h1> </a>
                 
 
                 <p>Nuestras chamarras son la fusión perfecta de estilo y funcionalidad. Cada diseño está seleccionado 
@@ -110,20 +110,20 @@
                     sacrificar el estilo.</p>
             </div>
 
-             <a href="productos.html">
+             <a href="productos.php">
                 <img src="build/img/chamarras/chamarraIndex.webp" alt="Chamarras" loading="lazy">
             </a>
 
         </section>
 
          <section class="main-pantalones">
-            <a href="productos.html">
+            <a href="productos.php">
                 <img src="build/img/pantalones/pantalonIndex.webp" alt="Pantalones" loading="lazy">
             </a>
 
             <div class="descripcion">
 
-                <a href="productos.html"> <h1>Pantalones</h1> </a>
+                <a href="productos.php"> <h1>Pantalones</h1> </a>
                 
                 <p>Encontrar el pantalón perfecto termina aquí. Nuestra colección está construida sobre la base del ajuste ideal,
                    ofreciendo una variedad de cortes que van desde el slim fit más moderno hasta el clásico corte recto. Cada par 
