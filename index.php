@@ -1,3 +1,7 @@
+<?php
+session_start(); // Siempre al inicio
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +43,12 @@
                                 <img src="build/img/iconos/user.svg" alt="Login" loading="lazy">
                             </a>
                         </div>
+
+                        <?php if (isset($_SESSION['usuario_id'])): ?>
+                            <a href="logout.php">Cerrar Sesión</a>
+                        <?php else: ?>
+                            <a href="login.php">Iniciar Sesión</a>
+                        <?php endif; ?>
 
                     </div> <!-- fin iconos navegacion -->
                 </nav> 
