@@ -29,8 +29,8 @@
                         </div>
                         
                         <div class="icono">
-                            <a href="wishlist.html">
-                                <img src="build/img/iconos/estrella.svg" alt="Wishlist" loading="lazy">
+                            <a href="inventario.html">
+                                <img src="build/img/iconos/estrella.svg" alt="Inventario" loading="lazy">
                             </a>
                         </div>
                         
