@@ -2,6 +2,7 @@
 
 .iconos-header {
     @include mixins.grid(3,2rem);
+    justify-content: center;
 
     .icono {
         img {
@@ -16,6 +17,11 @@
         }
         padding-top: 4.5rem;
 
+    }
+
+    .icono-sesion{
+        text-align: center;
+        
     }
 }
 
@@ -51,4 +57,10 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+}
+
+
+.icono-login-registrate{
+    display: flex;
+    justify-content: center;
 }

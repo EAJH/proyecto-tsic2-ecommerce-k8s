@@ -3,6 +3,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    height: 100%;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -12,15 +13,36 @@ body {
     font-size: 1.6rem;
     line-height: 1.8;
 }
+
+.body-sesion{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;
+}
+
 p {
     color: variables.$negro;
     font-size: 2.5rem;
 }
+
+.login-wrapper {
+    width: 90%; /* Dale un ancho (ej. 90% del espacio) */
+    max-width: 500px; /* Ponle un límite para que no sea muy ancho en pantallas grandes */
+    
+    /* Opcional: añade un fondo y sombra para que parezca un bloque */
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
 .contenedor {
     width: 95%;
     max-width: 180rem;
     margin: 0 auto;
 }
+
 
 a {
     text-decoration: none;

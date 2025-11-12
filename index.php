@@ -44,11 +44,12 @@ session_start(); // Siempre al inicio
                             </a>
                         </div>
 
-                        <?php if (isset($_SESSION['usuario_id'])): ?>
-                            <a href="logout.php">Cerrar Sesión</a>
-                        <?php else: ?>
-                            <a href="login.php">Iniciar Sesión</a>
-                        <?php endif; ?>
+                        <div class="icono-sesion">
+                            <?php if (isset($_SESSION['usuario_id'])): ?>
+                                <a href="logout.php">Cerrar Sesión</a>
+                            <?php endif; ?>
+                        </div>
+                        
 
                     </div> <!-- fin iconos navegacion -->
                 </nav> 

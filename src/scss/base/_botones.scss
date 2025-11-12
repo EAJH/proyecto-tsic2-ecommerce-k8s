@@ -8,3 +8,7 @@
   .boton-verde{
     @include mixins.boton(variables.$verde, inline);
  }
+
+.boton-login-enviar{
+   margin-bottom: 2rem;
+}

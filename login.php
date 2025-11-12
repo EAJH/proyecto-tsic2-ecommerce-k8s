@@ -76,36 +76,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="build/css/app.css">
 </head>
-<body>
+<body class="body-sesion">
 
-    <header>
-        <h1>Iniciar Sesión</h1>
+    <div class="login-wrapper">
+        <header class="header-sesion inicio">
+            <h1>Iniciar Sesión</h1>
         </header>
 
-    <main>
-        <form class="formulario-login" action="login.php" method="POST">
-            
-            <?php if (!empty($error_mensaje)): ?>
-                <div class="alerta error">
-                    <?php echo $error_mensaje; ?>
+        <main class="main">
+            <form class="formulario-login" action="login.php" method="POST">
+                
+                <?php if (!empty($error_mensaje)): ?>
+                    <div class="alerta error">
+                        <?php echo $error_mensaje; ?>
+                    </div>
+                <?php endif; ?>
+
+                <div class="campo">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
-            <?php endif; ?>
+                
+                <div class="campo">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
 
-            <div class="campo">
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            
-            <div class="campo">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
+                <button class="boton-amarillo boton-login-enviar" type="submit">Entrar</button>
+            </form>
 
-            <button type="submit">Entrar</button>
-        </form>
+            <a class="icono-login-registrate" href="registro.php">¿No tienes cuenta? Regístrate</a>
+        </main>
 
-        <a href="registro.php">¿No tienes cuenta? Regístrate</a>
-    </main>
+        <footer class="footer-sesion">
+            <p class="copyright">Todos los derechos reservados. Juárez Herrera Erick Adrián &copy; </p>
+        </footer>
+    </div>
+    
     
 </body>
 </html>

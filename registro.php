@@ -76,48 +76,54 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Tu CSS de Gulp -->
     <link rel="stylesheet" href="build/css/app.css">
 </head>
-<body>
+<body class="body-sesion">
 
-    <header>
-        <h1>Crear Cuenta</h1>
-    </header>
+    <div class="login-wrapper">
+        <header class="header-sesion inicio">
+            <h1>Crear Cuenta</h1>
+        </header>
 
-    <main>
-        <form class="formulario-registro" action="registro.php" method="POST">
-            
-            <!-- Mostrar mensajes de error o éxito -->
-            <?php if (!empty($error_mensaje)): ?>
-                <div class="alerta error">
-                    <?php echo $error_mensaje; ?>
+        <main class="main">
+            <form class="formulario-login" action="registro.php" method="POST">
+                
+                <!-- Mostrar mensajes de error o éxito -->
+                <?php if (!empty($error_mensaje)): ?>
+                    <div class="alerta error">
+                        <?php echo $error_mensaje; ?>
+                    </div>
+                <?php endif; ?>
+                
+                <?php if (!empty($exito_mensaje)): ?>
+                    <div class="alerta exito">
+                        <?php echo $exito_mensaje; ?>
+                    </div>
+                <?php endif; ?>
+
+                <div class="campo">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
-            <?php endif; ?>
-            
-            <?php if (!empty($exito_mensaje)): ?>
-                <div class="alerta exito">
-                    <?php echo $exito_mensaje; ?>
+                
+                <div class="campo">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
                 </div>
-            <?php endif; ?>
+                
+                <div class="campo">
+                    <label for="password_confirm">Confirmar Contraseña:</label>
+                    <input type="password" id="password_confirm" name="password_confirm" required>
+                </div>
 
-            <div class="campo">
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
+                <button class="boton-amarillo boton-login-enviar" type="submit">Registrarse</button>
+            </form>
             
-            <div class="campo">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            
-            <div class="campo">
-                <label for="password_confirm">Confirmar Contraseña:</label>
-                <input type="password" id="password_confirm" name="password_confirm" required>
-            </div>
+            <a class="icono-login-registrate" href="login.php">¿Ya tienes cuenta? Inicia sesión</a>
+        </main>
 
-            <button type="submit">Registrarse</button>
-        </form>
-        
-        <a href="login.php">¿Ya tienes cuenta? Inicia sesión</a>
-    </main>
+        <footer class="footer-sesion">
+            <p class="copyright">Todos los derechos reservados. Juárez Herrera Erick Adrián &copy; </p>
+        </footer>
+    </div>
     
 </body>
 </html>

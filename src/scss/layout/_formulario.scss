@@ -26,3 +26,30 @@
     }
 }
 
+
+.formulario-login{
+    display: grid;
+    justify-content: center;
+
+    label{
+        font-weight: variables.$regular;
+        font-size: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    input[type="password"] {
+        display: inline-block; // Lo regresamos a 'inline' para que esté junto al input
+        width: auto;          
+    }
+
+    input[type="email"] {
+        display: inline-block; // Lo regresamos a 'inline' para que esté junto al input
+        width: auto;          
+    }
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
