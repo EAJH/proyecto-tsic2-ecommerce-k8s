@@ -1,0 +1,28 @@
+ @use '../base/mixins';
+ @use '../base/variables';
+
+ .alerta {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem; // Un poco más pequeño pero legible
+    border-radius: .5rem;
+    border: 1px solid; // El color lo define el modificador
+
+    // Estilo para la clase .error
+    &.error {
+        // Puedes agregar estas variables de color a tu _variables.scss
+        background-color: #f8d7da; // Rojo muy claro
+        color: #721c24;             // Rojo oscuro
+        border-color: #f5c6cb;      // Rojo medio
+    }
+
+    // Estilo para la clase .exito
+    &.exito {
+        // Puedes agregar estas variables de color a tu _variables.scss
+        background-color: #d4edda; // Verde muy claro
+        color: #155724;             // Verde oscuro
+        border-color: #c3e6cb;      // Verde medio
+    }
+}

@@ -14,7 +14,7 @@
     input[type="submit"] {
         display: block;     // Lo hacemos un bloque para que ocupe su propia línea
         width: 80%;         
-        margin: 1rem auto;  // 1rem arriba/abajo y 'auto' a los lados (esto lo centra)
+        margin: 2rem auto;  // 1rem arriba/abajo y 'auto' a los lados (esto lo centra)
     }
 
     @include mixins.tablet {
@@ -26,3 +26,53 @@
     }
 }
 
+
+.formulario-login{
+    display: grid;
+    justify-content: center;
+
+    label{
+        font-weight: variables.$regular;
+        font-size: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    input[type="password"] {
+        display: inline-block; // Lo regresamos a 'inline' para que esté junto al input
+        width: auto;          
+    }
+
+    input[type="email"] {
+        display: inline-block; // Lo regresamos a 'inline' para que esté junto al input
+        width: auto;          
+    }
+
+    button[type="submit"] {
+        display: inline; // Lo regresamos a 'inline' para que esté junto al input
+        width: auto;           // Le quitamos el ancho fijo
+        margin-top: 4rem;
+    }
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo-filtro{
+    margin-top: 2rem;
+}
+
+.campo-busqueda{
+    margin-top: 1rem;
+}
+
+.boton-buscar{
+    margin-bottom: 2rem;
+}
+
+.form-busqueda-combinada{
+    display: grid;
+    align-items: center;
+}
